@@ -1,0 +1,15 @@
+{
+  // Wrangler Worker Configuration
+  "name": "support-dashboard",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-01-01",
+
+  // D1 Database Bindings
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "support-tickets",
+      "database_id": "3bb68cad-b4a7-4ba3-81f6-bd6ca97fe252"
+    }
+  ]
+}
